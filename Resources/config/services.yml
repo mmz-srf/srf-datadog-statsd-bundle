@@ -1,0 +1,3 @@
+services:
+    srf.datadog.stats_d:
+        class: SRF\Bundles\SRFPhpDatadogStatsDBundle\Service\DatadogStatsD

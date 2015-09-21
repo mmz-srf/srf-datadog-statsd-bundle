@@ -1,0 +1,29 @@
+{
+  "name": "mmz-srf/php-datadogstatsd-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony bundle 'SRFPhpDatadogStatsDBundle' integrates php-datadog-statsd into symfony.",
+  "keywords": ["statsd", "datadog", "symfony", "bundle", "srf"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Urban Etter",
+      "email": "urban.etter@srf.ch"
+    },
+    {
+      "name": "Pascal von Büren",
+      "email": "pascal.von.bueren@ymc.ch"
+    },
+    {
+      "name": "Multimediazentrum SRF",
+      "homepage": "http://www.srf.ch"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": { "SRF\\Bundles\\SRFPhpDatadogStatsDBundle": "" }
+  },
+  "require": {
+    "datadog/php-datadogstatsd": "0.3.*"
+  },
+  "target-dir": "SRF/Bundles/SRFPhpDatadogStatsDBundle"
+}
