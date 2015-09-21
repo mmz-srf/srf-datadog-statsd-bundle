@@ -1,6 +1,6 @@
 <?php
 
-namespace SRF\Bundles\EzLegacyDebugBundle\DependencyInjection;
+namespace SRF\Bundles\SRFPhpDatadogStatsDBundle\DependencyInjection;
 
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
