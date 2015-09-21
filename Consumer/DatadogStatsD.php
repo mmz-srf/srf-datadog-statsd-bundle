@@ -2,7 +2,9 @@
 
 namespace SRF\Bundles\SRFPhpDatadogStatsDBundle\Service;
 
-class DatadogStatsD
+use SRF\Bundles\SRFPhpDatadogStatsDBundle\Consumer\Consumer;
+
+class DatadogStatsD implements Consumer
 {
 
     /**
