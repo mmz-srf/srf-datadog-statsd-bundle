@@ -1,7 +1,7 @@
 services:
     srf.metrics.consumer.datadog:
-        class: SRF\Bundles\SRFPhpDatadogStatsDBundle\Consumer\DatadogStatsD
+        class: SRF\Bundles\SRFDatadogStatsDBundle\Consumer\DatadogStatsD
 
     srf.metrics.consumer.monolog:
-        class: SRF\Bundles\SRFPhpDatadogStatsDBundle\Consumer\Monolog
+        class: SRF\Bundles\SRFDatadogStatsDBundle\Consumer\Monolog
         arguments: ['@logger']
