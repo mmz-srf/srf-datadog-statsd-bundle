@@ -40,9 +40,19 @@ Run ```php composer.phar update mmz-srf/srf-datadog-statsd-bundle```
 
 Run ```php app/console cache:clear```
 
+**Usage**
+* Log to Monolog:*
+```php
+$this->container->get('srf.metrics.consumer.monolog')->timing('my.key', 4);
+```
+
+* Log to Datadog StatsD:*
+```php
+$this->container->get('srf.metrics.consumer.datadog')->timing('my.key', 4);
+```
 
 ## License
 The Bundle is licensed under MIT. For details, see
 [LICENSE](https://github.com/mmz-srf/srf-datadog-statsd-bundle/blob/master/Resources/meta/LICENSE).
 
-Maintained by [@csr_](https://github.com/csr_)
+Maintained by [@ymc-pabu](https://github.com/ymc-pabu)
