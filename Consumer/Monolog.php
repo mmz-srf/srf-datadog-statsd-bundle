@@ -1,6 +1,6 @@
 <?php
 
-namespace SRF\Bundles\SRFPhpDatadogStatsDBundle\Consumer;
+namespace SRF\Bundles\SRFDatadogStatsDBundle\Consumer;
 
 use Psr\Log\LoggerInterface;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace SRF\Bundles\SRFPhpDatadogStatsDBundle\Service;
+namespace SRF\Bundles\SRFDatadogStatsDBundle\Service;
 
-use SRF\Bundles\SRFPhpDatadogStatsDBundle\Consumer\Consumer;
+use SRF\Bundles\SRFDatadogStatsDBundle\Consumer\Consumer;
 
 class DatadogStatsD implements Consumer
 {

@@ -1,7 +1,7 @@
-# SRF PHP-Datadog StatsD Bundle
+# SRF Datadog StatsD Bundle
 
 ## Description
-Symfony bundle `SRFPhpDatadogStatsDBundle` integrates the datadog StatsD API to Symonfy
+Symfony bundle `SRFDatadogStatsDBundle` integrates the datadog StatsD API to Symonfy
 
 
 ## Installation
@@ -34,15 +34,7 @@ public function registerBundles()
 
 **Update your dependencies**
 
-Run ```php composer.phar update mmz-srf/ez-legacy-debug-bundle```
-
-## Configuration
-Add the configuration to your ```ezpublish_legacy/settings/override/site.ini```:
-
-```ini
-[DebugSettings]
-Debug=only_in_symfony
-```
+Run ```php composer.phar update mmz-srf/srf-datadog-statsd-bundle```
 
 **Clear the caches**
 
@@ -51,6 +43,6 @@ Run ```php app/console cache:clear```
 
 ## License
 The Bundle is licensed under MIT. For details, see
-[LICENSE](https://github.com/mmz-srf/SRFEzLegacyDebugBundle/blob/master/Resources/meta/LICENSE).
+[LICENSE](https://github.com/mmz-srf/srf-datadog-statsd-bundle/blob/master/Resources/meta/LICENSE).
 
-Maintained by [@mms-uret](https://github.com/mms-uret) and [@hasankryeziuSRF](https://github.com/hasankryeziuSRF).
+Maintained by [@csr_](https://github.com/csr_)
