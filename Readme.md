@@ -13,7 +13,7 @@ Choose your version from [packagist.org](https://packagist.org/packages/mmz-srf/
 Using the console:
 
 ```bash
-php composer.phar require --dev mmz-srf/srf-datadog-statsd-bundle
+php composer.phar require mmz-srf/srf-datadog-statsd-bundle
 ```
 
 Composer will add the dependency to your configuration.
@@ -25,11 +25,8 @@ Add the bundle in your ```app/AppKernel.php``` like this:
 ```php
 public function registerBundles()
 {
-   switch ($this->getEnvironment())
-       {
-           case "dev":
-               $bundles[] = new SRF\Bundles\EzLegacyDebugBundle\SRFEzLegacyDebugBundle();
-       }
+   $bundles[] = new SRF\Bundles\SRFDatadogStatsDBundle\SRFDatadogStatsDBundle();
+}
 ```
 
 **Update your dependencies**
