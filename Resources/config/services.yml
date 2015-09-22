@@ -1,13 +1,4 @@
-parameters:
-    srf.metrics.consumer_service: 'srf.metrics.consumer.monolog'
-
 services:
-    srf.metrics.consumer:
-        class: 'SRF\Bundles\SRFPhpDatadogStatsDBundle\Service\ConsumerFactory'
-        arguments: ['%srf.metrics.consumer_service%']
-        calls:
-            - [setContainer, [@service_container]]
-
     srf.metrics.consumer.datadog:
         class: SRF\Bundles\SRFPhpDatadogStatsDBundle\Consumer\DatadogStatsD
 
