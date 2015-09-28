@@ -13,7 +13,7 @@ class DatadogStatsD implements Consumer
      * @param float|1 $sampleRate the rate (0-1) for sampling.
      * @param array $tags
      **/
-    public function timing($key, $value, $sampleRate = null, $tags = null)
+    public function timing($key, $value, $sampleRate = 1, $tags = array())
     {
         \Datadogstatsd::timing($key, $value, $sampleRate, $tags);
     }
